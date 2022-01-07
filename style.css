@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .header {
+    background: #1F2937;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 1200px;
+  }
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5e7eb;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+  }
+  
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  img {
+      width: 100px;
+      height: 100px;
+  }
+
+  .topbox{
+    background: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
